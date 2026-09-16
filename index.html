@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SM Digital Studios — Web Developer &amp; Graphic Designer</title>
+<meta name="description" content="SM Digital Studios — web development, brand identity and campaign design. Based in Ilorin, Nigeria.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="/sm-favicon-32x32.png">
+<link rel="apple-touch-icon" href="/sm-favicon-180x180.png">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader" aria-hidden="true">
+  <div class="loader-row">
+    <span>SM Digital Studios</span>
+    <span class="loader-pct">000</span>
+  </div>
+  <div class="loader-content">
+    <img class="loader-mark" src="images/sm-logo-white.png" alt="">
+  </div>
+  <div class="loader-row">
+    <span>Ilorin, Nigeria</span>
+    <span>Loading visual archive</span>
+  </div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"><span>View</span></div>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress"></div>
+
+<!-- GRID OVERLAY -->
+<div class="grid-overlay is-visible" aria-hidden="true">
+  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+</div>
+<button class="grid-toggle is-active" type="button" aria-pressed="true">Grid</button>
+
+<!-- NAV -->
+<header class="nav">
+  <a href="#top" class="nav-brand">
+    <img src="images/sm-logo-white.png" alt="SM Digital Studios">
+    <span class="nav-brand-text">SM DIGITAL&nbsp;STUDIOS</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#work" class="nav-link">Work</a>
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#process" class="nav-link">Process</a>
+    <a href="#studio" class="nav-link">Studio</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+  <div class="nav-meta">
+    <span class="status-pill"><span class="status-dot"></span>Available for select projects</span>
+    <span class="local-time">Ilorin — --:--</span>
+  </div>
+  <button class="nav-burger" type="button" aria-label="Open menu" aria-expanded="false">
+    <span></span>
+  </button>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu">
+  <a href="#work">Work</a>
+  <a href="#services">Services</a>
+  <a href="#process">Process</a>
+  <a href="#studio">Studio</a>
+  <a href="#contact">Contact</a>
+  <div class="mobile-menu-socials">
+    <a href="https://wa.me/2349051710649" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="mailto:saadmukhtar183@gmail.com">Email</a>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero-watermark" src="images/sm-logo-white.png" alt="" aria-hidden="true">
+    <div class="container">
+      <p class="eyebrow reveal">Web Developer &amp; Graphic Designer — Ilorin, Nigeria</p>
+      <div class="hero-grid">
+        <div>
+          <h1 class="reveal">WE CUT<br>THROUGH<br><span class="accent">THE&nbsp;NOISE.</span></h1>
+          <p class="hero-sub reveal">SM Digital Studios designs and builds brand identities, websites and ad campaigns &mdash; built sharp enough to stop a scroll.</p>
+          <div class="hero-cta reveal">
+            <a href="#work" class="btn cut">View the Work
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Start a Project</a>
+          </div>
+        </div>
+        <div class="hero-meta reveal">
+          <dl>
+            <dt>Focus</dt><dd>Web Development, Branding &amp; Art Direction</dd>
+            <dt>Based</dt><dd>Ilorin, Nigeria</dd>
+            <dt>Status</dt><dd class="status"><span class="status-dot"></span>Open for select projects</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="marquee-strip">
+      <div class="marquee-track">
+        <span>Web Development</span><span>Brand Identity</span><span>Art Direction</span><span>Campaign Design</span><span>Social Ads</span><span>Logo Design</span>
+        <span>Web Development</span><span>Brand Identity</span><span>Art Direction</span><span>Campaign Design</span><span>Social Ads</span><span>Logo Design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="work-head">
+        <div>
+          <p class="eyebrow reveal">Selected Work — 14 Projects</p>
+          <h2 class="h2 reveal">Recent Cuts.</h2>
+          <p class="lede reveal">A cross-section of client work and concept pieces — websites, branding, campaigns and editorial design.</p>
+        </div>
+      </div>
+
+      <p class="work-subhead reveal">Web Development</p>
+      <div class="web-grid">
+
+        <button class="work-card reveal" type="button" data-category="web"
+          data-title="SM Autos" data-tag="Client" data-category-label="Web Development"
+          data-desc="Luxury car dealership website — cinematic full-screen hero, live inventory and financing tools.">
+          <div class="work-figure is-wide"><span class="work-tag">Client</span><img src="images/web-smautos.jpg" alt="SM Autos car dealership website design"></div>
+          <div class="work-caption"><span class="work-title">SM Autos</span><span class="work-cat">Web Development</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="web"
+          data-title="7Pillars Consulting" data-tag="Client" data-category-label="Web Development"
+          data-desc="Corporate training &amp; consulting site — editorial serif type over a warm gradient backdrop.">
+          <div class="work-figure is-wide"><span class="work-tag">Client</span><img src="images/web-7pillars.jpg" alt="7Pillars Consulting website design"></div>
+          <div class="work-caption"><span class="work-title">7Pillars Consulting</span><span class="work-cat">Web Development</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="web"
+          data-title="BJ Wood Work" data-tag="Client" data-category-label="Web Development"
+          data-desc="Furniture &amp; woodworking brand site — bold type set against natural wood-grain texture.">
+          <div class="work-figure is-wide"><span class="work-tag">Client</span><img src="images/web-bjwoodwork.jpg" alt="BJ Wood Work website design"></div>
+          <div class="work-caption"><span class="work-title">BJ Wood Work</span><span class="work-cat">Web Development</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="web"
+          data-title="Sky Touch Beauty" data-tag="Client" data-category-label="Web Development"
+          data-desc="Beauty studio website — soft editorial serif type on a warm, minimal canvas.">
+          <div class="work-figure is-wide"><span class="work-tag">Client</span><img src="images/web-skytouch.jpg" alt="Sky Touch Beauty website design"></div>
+          <div class="work-caption"><span class="work-title">Sky Touch Beauty</span><span class="work-cat">Web Development</span></div>
+        </button>
+
+      </div>
+
+      <p class="work-subhead reveal">Graphic Design</p>
+      <div class="filters reveal">
+        <button class="filter-pill is-active" data-filter="all" type="button">All (10)</button>
+        <button class="filter-pill" data-filter="branding" type="button">Branding (2)</button>
+        <button class="filter-pill" data-filter="automotive" type="button">Automotive (2)</button>
+        <button class="filter-pill" data-filter="fnb" type="button">F&amp;B (3)</button>
+        <button class="filter-pill" data-filter="sports" type="button">Sports &amp; Lifestyle (2)</button>
+        <button class="filter-pill" data-filter="health" type="button">Healthcare (1)</button>
+      </div>
+
+      <div class="work-grid">
+
+        <button class="work-card is-logo reveal" type="button" data-category="branding"
+          data-title="SM Digital Studios" data-tag="Self-Initiated" data-category-label="Branding"
+          data-desc="Studio identity — a geometric monogram built from a single continuous cut.">
+          <div class="work-figure"><span class="work-tag">Self-Initiated</span><img src="images/sm-logo-white.png" alt="SM Digital Studios logo mark"></div>
+          <div class="work-caption"><span class="work-title">SM Digital Studios</span><span class="work-cat">Branding</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="automotive"
+          data-title="Porsche — 911 GT3RS" data-tag="Concept" data-category-label="Automotive"
+          data-desc="Print poster concept — a minimal composition built around negative space.">
+          <div class="work-figure"><span class="work-tag">Concept</span><img src="images/work-porsche.jpg" alt="Porsche 911 GT3RS poster design"></div>
+          <div class="work-caption"><span class="work-title">Porsche 911 GT3RS</span><span class="work-cat">Automotive</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="sports"
+          data-title="Nike Air Jordan" data-tag="Concept" data-category-label="Sports &amp; Lifestyle"
+          data-desc="Campaign poster — high-contrast product photography and oversized type.">
+          <div class="work-figure"><span class="work-tag">Concept</span><img src="images/work-jordan.jpg" alt="Nike Air Jordan campaign poster design"></div>
+          <div class="work-caption"><span class="work-title">Nike Air Jordan</span><span class="work-cat">Sports &amp; Lifestyle</span></div>
+        </button>
+
+        <button class="work-card is-logo reveal" type="button" data-category="branding"
+          data-title="SA'AD Leather &amp; Variety Store" data-tag="Client" data-category-label="Branding"
+          data-desc="Retail identity — a hand-lettered script mark for a leather goods and variety store.">
+          <div class="work-figure"><span class="work-tag">Client</span><img src="images/saad-logo-white.png" alt="SA'AD Leather and Variety Store logo mark"></div>
+          <div class="work-caption"><span class="work-title">SA'AD Leather &amp; Variety Store</span><span class="work-cat">Branding</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="fnb"
+          data-title="Delicious Chicken Burger" data-tag="Concept" data-category-label="F&amp;B"
+          data-desc="Ad creative — appetite appeal built through colour and bold type hierarchy.">
+          <div class="work-figure"><span class="work-tag">Concept</span><img src="images/work-burger.jpg" alt="Chicken burger advertisement design"></div>
+          <div class="work-caption"><span class="work-title">Chicken Burger</span><span class="work-cat">F&amp;B</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="fnb"
+          data-title="Crisp Chicken Biryani" data-tag="Concept" data-category-label="F&amp;B"
+          data-desc="Ad creative — big type, bold colour and an even bigger plate.">
+          <div class="work-figure"><span class="work-tag">Concept</span><img src="images/work-biryani.jpg" alt="Chicken biryani advertisement design"></div>
+          <div class="work-caption"><span class="work-title">Chicken Biryani</span><span class="work-cat">F&amp;B</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="automotive"
+          data-title="Lexus LFA" data-tag="Concept" data-category-label="Automotive"
+          data-desc="Editorial poster — bold type layered over night photography.">
+          <div class="work-figure"><span class="work-tag">Concept</span><img src="images/work-lexus.jpg" alt="Lexus LFA editorial poster design"></div>
+          <div class="work-caption"><span class="work-title">Lexus LFA</span><span class="work-cat">Automotive</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="sports"
+          data-title="Michael Olise — Bayern Edition" data-tag="Concept" data-category-label="Sports &amp; Lifestyle"
+          data-desc="Editorial cover concept — expressive type distortion paired with sport photography.">
+          <div class="work-figure"><span class="work-tag">Concept</span><img src="images/work-olise.jpg" alt="Michael Olise editorial cover poster design"></div>
+          <div class="work-caption"><span class="work-title">Michael Olise Cover</span><span class="work-cat">Sports &amp; Lifestyle</span></div>
+        </button>
+
+        <button class="work-card reveal" type="button" data-category="fnb"
+          data-title="Fresh Sprite" data-tag="Concept" data-category-label="F&amp;B"
+          data-desc="Ad creative — condensation, citrus and colour contrast.">
+          <div class="work-figure"><span class="work-tag">Concept</span><img src="images/work-sprite.jpg" alt="Sprite advertisement design"></div>
+          <div class="work-caption"><span class="work-title">Fresh Sprite</span><span class="work-cat">F&amp;B</span></div>
+        </button>
+
+         
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <p class="eyebrow reveal">What I Do</p>
+      <h2 class="h2 reveal">Services.</h2>
+
+      <div class="services-list reveal">
+        <div class="service-row">
+          <span class="service-name">Website Design &amp; Development</span>
+          <span class="service-desc">Fast, responsive websites built from concept to production-ready code.</span>
+          <svg class="service-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+        </div>
+        <div class="service-row">
+          <span class="service-name">Brand Identity &amp; Logo Design</span>
+          <span class="service-desc">Marks and systems built to hold up anywhere they're placed.</span>
+          <svg class="service-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+        </div>
+        <div class="service-row">
+          <span class="service-name">Advertising &amp; Campaign Design</span>
+          <span class="service-desc">Print and digital ads built to earn a second look.</span>
+          <svg class="service-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+        </div>
+        <div class="service-row">
+          <span class="service-name">Social Media Creatives</span>
+          <span class="service-desc">On-brand content that keeps a feed consistent and sharp.</span>
+          <svg class="service-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+        </div>
+        <div class="service-row">
+          <span class="service-name">Art Direction</span>
+          <span class="service-desc">Concept and visual direction for shoots, campaigns and launches.</span>
+          <svg class="service-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+        </div>
+        <div class="service-row">
+          <span class="service-name">Print &amp; Packaging</span>
+          <span class="service-desc">Posters, packaging and collateral, designed for production.</span>
+          <svg class="service-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process">
+    <div class="container">
+      <p class="eyebrow reveal">How It Works</p>
+      <h2 class="h2 reveal">Process.</h2>
+
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <div class="process-num">01</div>
+          <div class="process-title">Brief</div>
+          <p class="process-desc">Understand the brand, the audience and what the piece needs to do.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-num">02</div>
+          <div class="process-title">Concept</div>
+          <p class="process-desc">Explore directions and sketch until one idea earns its place.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-num">03</div>
+          <div class="process-title">Design</div>
+          <p class="process-desc">Build the system &mdash; type, colour, layout &mdash; with precision.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="process-num">04</div>
+          <div class="process-title">Deliver</div>
+          <p class="process-desc">Hand off production-ready files, on time, in the formats you need.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDIO -->
+  <section class="section" id="studio">
+    <div class="container">
+      <div class="studio-grid">
+        <div class="studio-text reveal">
+          <p class="eyebrow">About</p>
+          <h2 class="h2">Studio.</h2>
+          <p style="margin-top:1.6rem;">SM Digital Studios is a design and development practice building <strong>websites</strong>, <strong>brand identities</strong> and <strong>campaigns</strong> for work that wants to be seen, not scrolled past. Every project starts with a brief and ends with a system that holds up anywhere it's placed &mdash; browser, feed, billboard or business card.</p>
+        </div>
+        <dl class="spec-sheet reveal">
+          <div class="spec-row"><dt>Studio</dt><dd>SM Digital Studios</dd></div>
+          <div class="spec-row"><dt>Based</dt><dd>Ilorin, Nigeria</dd></div>
+          <div class="spec-row"><dt>Focus</dt><dd>Web Development / Branding / Art Direction</dd></div>
+          <div class="spec-row"><dt>Status</dt><dd><span class="status-dot"></span>Available for select projects</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Get In Touch</p>
+          <h2 class="h2">Let's Make<br>Something Sharp.</h2>
+          <p class="lede">Have a website, a brand or a campaign in mind? Reach out directly &mdash; every message goes straight to me.</p>
+        </div>
+
+        <div class="contact-actions reveal">
+          <a href="https://wa.me/2349051710649" target="_blank" rel="noopener" class="contact-card cut">
+            <span class="contact-card-text">
+              <span class="contact-card-label">WhatsApp</span>
+              <span class="contact-card-value">+234 905 171 0649</span>
+            </span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+          </a>
+          <a href="mailto:saadmukhtar183@gmail.com" class="contact-card cut">
+            <span class="contact-card-text">
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">saadmukhtar183@gmail.com</span>
+            </span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="#top" class="footer-brand">
+        <img src="images/sm-logo-white.png" alt="SM Digital Studios">
+        <span class="footer-brand-text">SM DIGITAL STUDIOS</span>
+      </a>
+      <nav class="footer-nav">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#studio">Studio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 SM Digital Studios &mdash; Web Development &amp; Graphic Design Studio, Ilorin, Nigeria.</span>
+      <a href="#top" class="to-top">Back to top
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" type="button" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <div class="lightbox-inner">
+    <div class="lightbox-figure">
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous project">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+      </button>
+      <img id="lbImg" src="" alt="">
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Next project">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+    <div class="lightbox-info">
+      <span class="lightbox-tag" id="lbTag"></span>
+      <h3 class="lightbox-title" id="lbTitle"></h3>
+      <p class="lightbox-desc" id="lbDesc"></p>
+      <p class="lightbox-cat" id="lbCat"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+
+  /* ---------- LOADER ---------- */
+  (function(){
+    var loader = document.querySelector('.loader');
+    var pctEl = document.querySelector('.loader-pct');
+    var barFill = document.querySelector('.loader-bar-fill');
+    document.documentElement.classList.add('is-loading');
+    var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function finish(){
+      loader.classList.add('is-done');
+      document.documentElement.classList.remove('is-loading');
+      setTimeout(function(){ loader.style.display = 'none'; }, reduced ? 0 : 950);
+    }
+
+    if(reduced){
+      pctEl.textContent = '100';
+      barFill.style.transform = 'scaleX(1)';
+      finish();
+      return;
+    }
+
+    var duration = 2000;
+    var start = null;
+    function frame(ts){
+      if(start === null) start = ts;
+      var t = Math.min(1, (ts - start) / duration);
+      var eased = t; 
+      pctEl.textContent = String(Math.floor(eased * 100)).padStart(3, '0');
+      barFill.style.transform = 'scaleX(' + eased + ')';
+      if(t < 1){
+        requestAnimationFrame(frame);
+      } else {
+        setTimeout(finish, 200);
+      }
+    }
+    requestAnimationFrame(frame);
+  })();
+
+  /* ---------- CUSTOM CURSOR ---------- */
+  (function(){
+    if(!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+    var dot = document.querySelector('.cursor-dot');
+    var ring = document.querySelector('.cursor-ring');
+    var mx=0,my=0,rx=0,ry=0;
+    window.addEventListener('mousemove', function(e){
+      mx = e.clientX; my = e.clientY;
+      dot.style.transform = 'translate(' + mx + 'px,' + my + 'px) translate(-50%,-50%)';
+    });
+    function loop(){
+      rx += (mx-rx)*0.16; ry += (my-ry)*0.16;
+      ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px) translate(-50%,-50%)';
+      requestAnimationFrame(loop);
+    }
+    loop();
+    document.addEventListener('mouseover', function(e){
+      if(e.target.closest('.work-card')){ ring.classList.add('is-view'); ring.classList.remove('is-hover'); }
+      else if(e.target.closest('a,button,.filter-pill,input,select,textarea')){ ring.classList.add('is-hover'); ring.classList.remove('is-view'); }
+      else { ring.classList.remove('is-hover','is-view'); }
+    });
+  })();
+
+  /* ---------- SCROLL PROGRESS ---------- */
+  (function(){
+    var bar = document.querySelector('.scroll-progress');
+    window.addEventListener('scroll', function(){
+      var h = document.documentElement;
+      var scrolled = h.scrollTop / (h.scrollHeight - h.clientHeight) * 100;
+      bar.style.width = (isFinite(scrolled) ? scrolled : 0) + '%';
+    }, { passive:true });
+  })();
+
+  /* ---------- NAV SCROLL STATE + ACTIVE LINK ---------- */
+  (function(){
+    var nav = document.querySelector('.nav');
+    window.addEventListener('scroll', function(){
+      nav.classList.toggle('is-scrolled', window.scrollY > 40);
+    }, { passive:true });
+
+    var sections = document.querySelectorAll('main section[id]');
+    var navLinks = document.querySelectorAll('.nav-link');
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        var link = document.querySelector('.nav-link[href="#' + en.target.id + '"]');
+        if(link && en.isIntersecting){
+          navLinks.forEach(function(l){ l.classList.remove('is-active'); });
+          link.classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '-45% 0px -45% 0px' });
+    sections.forEach(function(s){ obs.observe(s); });
+  })();
+
+  /* ---------- MOBILE MENU ---------- */
+  (function(){
+    var burger = document.querySelector('.nav-burger');
+    var menu = document.querySelector('.mobile-menu');
+    burger.addEventListener('click', function(){
+      var open = menu.classList.toggle('is-open');
+      burger.classList.toggle('is-open', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      document.documentElement.style.overflow = open ? 'hidden' : '';
+    });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        menu.classList.remove('is-open');
+        burger.classList.remove('is-open');
+        burger.setAttribute('aria-expanded','false');
+        document.documentElement.style.overflow = '';
+      });
+    });
+  })();
+
+  /* ---------- REVEAL ON SCROLL ---------- */
+  (function(){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('in-view'); io.unobserve(en.target); }
+      });
+    }, { threshold:0.12 });
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  })();
+
+  /* ---------- LIVE CLOCK ---------- */
+  (function(){
+    var el = document.querySelector('.local-time');
+    if(!el) return;
+    function tick(){
+      try{
+        var fmt = new Intl.DateTimeFormat('en-GB', { timeZone:'Africa/Lagos', hour:'2-digit', minute:'2-digit', hour12:false });
+        el.textContent = 'Ilorin — ' + fmt.format(new Date());
+      }catch(e){}
+    }
+    tick();
+    setInterval(tick, 1000*30);
+  })();
+
+  /* ---------- GRID OVERLAY ---------- */
+  (function(){
+    var btn = document.querySelector('.grid-toggle');
+    var overlay = document.querySelector('.grid-overlay');
+    btn.addEventListener('click', function(){
+      var visible = overlay.classList.toggle('is-visible');
+      btn.classList.toggle('is-active', visible);
+      btn.setAttribute('aria-pressed', visible ? 'true' : 'false');
+    });
+  })();
+
+  /* ---------- WORK FILTERS ---------- */
+  (function(){
+    var pills = document.querySelectorAll('.filter-pill');
+    var cards = document.querySelectorAll('.work-grid .work-card');
+    pills.forEach(function(p){
+      p.addEventListener('click', function(){
+        pills.forEach(function(x){ x.classList.remove('is-active'); });
+        p.classList.add('is-active');
+        var f = p.dataset.filter;
+        var visible = [];
+        cards.forEach(function(c){
+          var match = f === 'all' || c.dataset.category === f;
+          c.style.display = match ? '' : 'none';
+          if(match) visible.push(c);
+        });
+        visible.forEach(function(c, i){
+          c.style.animation = 'none';
+          void c.offsetWidth;
+          c.style.animation = 'popIn .5s cubic-bezier(.16,.84,.44,1) both';
+          c.style.animationDelay = (i * 0.035) + 's';
+        });
+      });
+    });
+  })();
+
+  /* ---------- LIGHTBOX ---------- */
+  (function(){
+    var cardsArr = Array.prototype.slice.call(document.querySelectorAll('.work-card'));
+    var lightbox = document.getElementById('lightbox');
+    var lbImg = document.getElementById('lbImg');
+    var lbTitle = document.getElementById('lbTitle');
+    var lbDesc = document.getElementById('lbDesc');
+    var lbTag = document.getElementById('lbTag');
+    var lbCat = document.getElementById('lbCat');
+    var idx = 0;
+
+    function open(i){
+      idx = i;
+      var c = cardsArr[i];
+      var img = c.querySelector('img');
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lbTitle.textContent = c.dataset.title;
+      lbDesc.textContent = c.dataset.desc;
+      lbTag.textContent = c.dataset.tag;
+      lbCat.textContent = c.dataset.categoryLabel;
+      lightbox.classList.add('is-open');
+      document.documentElement.style.overflow = 'hidden';
+    }
+    function close(){
+      lightbox.classList.remove('is-open');
+      document.documentElement.style.overflow = '';
+    }
+    cardsArr.forEach(function(c, i){ c.addEventListener('click', function(){ open(i); }); });
+    document.querySelector('.lightbox-close').addEventListener('click', close);
+    document.querySelector('.lightbox-next').addEventListener('click', function(){ open((idx+1) % cardsArr.length); });
+    document.querySelector('.lightbox-prev').addEventListener('click', function(){ open((idx-1+cardsArr.length) % cardsArr.length); });
+    lightbox.addEventListener('click', function(e){ if(e.target === lightbox) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lightbox.classList.contains('is-open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowRight') open((idx+1) % cardsArr.length);
+      if(e.key === 'ArrowLeft') open((idx-1+cardsArr.length) % cardsArr.length);
+    });
+  })();
+
+});
+</script>
+</body>
+</html>
